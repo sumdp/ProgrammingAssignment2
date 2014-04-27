@@ -3,7 +3,7 @@
 # get the value of the matrix 
 # set the value of the inverse of the matrix
 # get the value of the inverse of the matrix
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = numeric()) { # numeric matrix (assume it is always invertable)
         m <- NULL
         set <- function(y) { # set the value of the matrix
                 x <<- y
